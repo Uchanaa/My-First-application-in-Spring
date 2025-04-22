@@ -2,9 +2,9 @@ package com.example.Lecture11.config;
 
 
 import org.springframework.context.annotation.Bean;
-import org.springframework.stereotype.Component;
+import org.springframework.context.annotation.Configuration;
 
-@Component
+@Configuration
 public class AppConfig {
     @Bean
     public String appName(){
